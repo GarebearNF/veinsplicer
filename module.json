@@ -1,0 +1,39 @@
+{
+    "name": "veinsplicer",
+    "title": "Veinsplicer",
+    "description": "",
+    "version": "0.1.00",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.8.3",
+    "authors": [
+        {
+            "name": "Kandashi, modded by Syphre",
+            "url": "",
+            "discord": ""
+        }
+    ],
+    "packs": [
+        {
+            "name": "classfeatures",
+            "label": "Veinsplicer",
+            "path": "packs/classItems",
+            "entity": "Item",
+            "module": "veinsplicer"
+        },
+{
+            "name": "classactors",
+            "label": "Veinsplicer",
+            "path": "packs/classCreatures",
+            "entity": "Actor",
+            "module": "veinsplicer"
+        }
+    ],
+    "esmodules": [
+        "/scripts/module.js"
+    ],
+    "url": "k",
+    "manifest": "k",
+    "download": "k"
+}
