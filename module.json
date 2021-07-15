@@ -1,7 +1,7 @@
 {
     "name": "veinsplicer",
     "title": "Veinsplicer",
-    "description": "",
+    "description": "D&D 5e Homebrewed Class - Veinsplicer. Modded from Custom Classes by kandashi",
     "version": "0.1.00",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
@@ -9,7 +9,7 @@
     "compatibleCoreVersion": "0.8.3",
     "authors": [
         {
-            "name": "Kandashi, modded by Syphre"
+            "name": "Syphre"
         }
     ],
     "packs": [
