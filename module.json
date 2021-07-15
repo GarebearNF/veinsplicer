@@ -33,7 +33,7 @@
     "esmodules": [
         "/scripts/module.js"
     ],
-    "url": "k",
-    "manifest": "k",
+    "url": "https://github.com/GarebearNF/veinsplicer",
+    "manifest": "https://github.com/GarebearNF/veinsplicer/raw/module.json",
     "download": "k"
 }
