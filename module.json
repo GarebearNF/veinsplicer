@@ -5,7 +5,7 @@
     "version": "0.1.00",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
-    "minimumCoreVersion": "0.7.9",
+    "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.6",
     "authors": "Syphre",
     "packs": [
