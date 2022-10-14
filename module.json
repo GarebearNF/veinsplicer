@@ -33,5 +33,6 @@
     ],
     "url": "https://github.com/GarebearNF/veinsplicer",
     "manifest": "https://github.com/GarebearNF/veinsplicer/raw/veinsplicer/module.json",
-    "download": "https://www.dropbox.com/s/tkkdx7eva2a1i81/Veinsplicer.zip?dl=1"
+    "download": "https://www.dropbox.com/s/tkkdx7eva2a1i81/Veinsplicer.zip?dl=1",
+    "id": "veinsplicer"
 }
