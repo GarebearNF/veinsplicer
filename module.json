@@ -14,7 +14,7 @@
         {
             "name": "classfeatures",
             "label": "Veinsplicer",
-		"system": ["dnd5e"]
+		"system": ["dnd5e"],
             "path": "packs/classItems",
             "type": "Item",
             "module": "veinsplicer"
@@ -22,7 +22,7 @@
 {
             "name": "classactors",
             "label": "Veinsplicer",
-		"system": ["dnd5e"]
+		"system": ["dnd5e"],
             "path": "packs/classCreatures",
             "type": "Actor",
             "module": "veinsplicer"
