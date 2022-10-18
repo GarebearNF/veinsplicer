@@ -1,49 +1,45 @@
 {
-    "id": "veinsplicer",
-    "title": "Veinsplicer",
-    "description": "D&D 5e Homebrewed Class - Veinsplicer. Modded from Custom Classes by kandashi",
-    "url": "https://github.com/GarebearNF/veinsplicer",
-    "version": "0.3.00",
-    "authors": "Syphre",
-    "system": "dnd5e",
-    "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-        "compatibility": {
-          "minimum": "2.0.0",
-          "verified": "2.0"
-        }
-      }
-    ]
-  },
-    "packs": [
-        {
-            "name": "classfeatures",
-            "label": "Veinsplicer",
-            "path": "./packs/classItems",
-            "system": "dnd5e",
-            "type": "Item",
-            "module": "veinsplicer"
-        },
-{
-            "name": "classactors",
-            "label": "Veinsplicer",
-            "path": "./packs/classCreatures",
-            "system": "dnd5e",
-            "type": "Actor",
-            "module": "veinsplicer"
-        }
-    ],
-    "esmodules": [
-        "/scripts/module.js"
-    ],
-    "manifest": "https://github.com/GarebearNF/veinsplicer/raw/veinsplicer/module.json",
-    "download": "https://www.dropbox.com/s/tkkdx7eva2a1i81/Veinsplicer.zip?dl=1",
-    "compatibility": {
-    "minimum": "9",
-    "verified": "10"
+  "id": "veinsplicer",
+  "name": "veinsplicer",
+  "title": "Veinsplicer",
+  "description": "D&D 5e Homebrewed Class - Veinsplicer. Modded from Custom Classes by kandashi",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
     "maximum": "10"
- 	 }
+  },
+  "author": "Syphre",
+  "authors": [
+    {
+      "name": "Syphre"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Veinsplicer",
+      "path": "/packs/classCreatures.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "Veinsplicer",
+      "path": "/packs/classItems.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ],
+  "esmodules": [
+    "./scripts/module.js"
+  ],
+  "url": "https://github.com/GarebearNF/veinsplicer",
+  "manifest": "https://github.com/GarebearNF/veinsplicer/raw/veinsplicer/module.json",
+  "download": "https://www.dropbox.com/s/tkkdx7eva2a1i81/Veinsplicer.zip?dl=1",
+  "manifestPlusVersion": "1.2.0"
 }
