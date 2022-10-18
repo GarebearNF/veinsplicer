@@ -1,14 +1,9 @@
 {
     "id": "veinsplicer",
-    "name": "veinsplicer",
     "title": "Veinsplicer",
     "description": "D&D 5e Homebrewed Class - Veinsplicer. Modded from Custom Classes by kandashi",
+    "url": "https://github.com/GarebearNF/veinsplicer",
     "version": "0.3.00",
-    "compatibility": {
-    "minimum": 9,
-    "verified": "10"
-    "maximum": "10"
- 	 },
     "authors": "Syphre",
     "system": "dnd5e",
     "relationships": {
@@ -44,7 +39,11 @@
     "esmodules": [
         "/scripts/module.js"
     ],
-    "url": "https://github.com/GarebearNF/veinsplicer",
     "manifest": "https://github.com/GarebearNF/veinsplicer/raw/veinsplicer/module.json",
-    "download": "https://www.dropbox.com/s/tkkdx7eva2a1i81/Veinsplicer.zip?dl=1"
+    "download": "https://www.dropbox.com/s/tkkdx7eva2a1i81/Veinsplicer.zip?dl=1",
+    "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+    "maximum": "10"
+ 	 }
 }
